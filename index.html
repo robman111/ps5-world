@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PS5 World</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#0b0f1a;
+    color:white;
+}
+
+header{
+    background:linear-gradient(90deg,#0066ff,#00c3ff);
+    padding:20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+.hero{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.hero h2{
+    font-size:2.5rem;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:1.2rem;
+    color:#ccc;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#0066ff;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#004bcc;
+}
+
+.games{
+    padding:40px;
+}
+
+.games h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.card{
+    background:#151c2e;
+    width:250px;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h3{
+    color:#00c3ff;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+    background:#111;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🎮 PS5 WORLD</h1>
+</header>
+
+<section class="hero">
+    <h2>Ласкаво просимо у світ PlayStation 5</h2>
+    <p>Найкраща консоль нового покоління.</p>
+    <a href="#games" class="btn">Дізнатися більше</a>
+</section>
+
+<section class="games" id="games">
+    <h2>Популярні ігри</h2>
+<button class="btn" onclick="showInfo()">
+    Характеристики ps5
+</button>
+
+<script>
+function showInfo() {
+    alert("PlayStation 5 підтримує 4K-графіку, швидкий SSD та сотні крутих ігор!");
+}
+</script>
